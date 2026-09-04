@@ -4,12 +4,13 @@ import random
 # pi=4n/N, jossa n on ympyrän sisään osuvat pisteet ja N kaikki arvotut pisteet
 # Piste on ympyrän sisällä, jos x^2+y^2<1
 
-N = 100  # kaikkien pisteiden lukumäärä
-n = 0    # lasketaan ympyrään osuneiden pisteiden lukumäärä
+N = int(input("Kuinka monta pistettä arvotaan: "))
+n = 0
 counter = 0
 
 while counter < N:
     counter += 1
+
     x = random.uniform(-1, 1)
     y = random.uniform(-1, 1)
 
@@ -20,3 +21,6 @@ while counter < N:
         print("Piste on ympyrän sisällä.")
 
 print(f"Pisteitä arvottu yhteensä {N}, joista ympyrän sisälle osui {n} kpl.")
+
+pi = 4 * n / N
+print("Piin likiarvo on:", pi)

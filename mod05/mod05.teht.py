@@ -138,7 +138,7 @@ while arvaus != oikea_numero:
     print('Väärin')
     arvaus = int(input('Arvaa uudestaan: '))
 else:
-print(f'Yes, sait kaiken oikein!!! Numero tosiaan oli {oikea_numero}')
+    print(f'Yes, sait kaiken oikein!!! Numero tosiaan oli {oikea_numero}')
 
 # usein while rakennetta käytetään ja varsinkin teidän projekteissa!!
 # ns. pääsilmukka ELI main loop
