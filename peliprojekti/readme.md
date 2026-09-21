@@ -4,26 +4,27 @@ Tekijä: Edona
 
 ## Pelin idea
 
-Pelissä ohjataan palloa komennoilla.
+Pomppupallossa pitää saada 30 pistettä.
 
-Palloa voi pomputtaa ylös ja laskea alas.
+Pelaajalla on alussa 3 elämää. Pisteitä saa pomppimalla ja mitä korkeammalle pallo pomppaa, sitä enemmän saa pisteitä.
 
-Kun pallo pomppaa, peli arpoo korkeuden väliltä 1-5 ja siitä saa pisteitä.
+Pelissä voi tulla myös erilaisia tilanteita. Pallo voi osua piikkiin ja silloin menettää yhden elämän. Voi myös löytää sydämen tai kultaisen tähden.
 
-Jos pallo tulee alas, pelaaja menettää yhden pisteen.
+Sydämestä saa yhden elämän takaisin ja tähdestä saa 5 bonuspistettä.
 
-Pelissä voi myös kerätä esineitä inventaarioon ja katsoa mitä siellä on.
+Pelissä voi tulla myös superhyppy tai trampoliini, joista saa lisää pisteitä.
 
-Pelin tavoite on saada 20 pistettä.
+Peli voitetaan kun saa vähintään 30 pistettä. Jos kaikki elämät loppuvat, peli päättyy häviöön.
 
 ## Komennot
 
 p = pompi
-
 a = alas
-
-l = lisää esine
-
 i = inventaario
-
+s = käytä sydän
+t = käytä tähti
 lopeta = lopeta peli
+
+## Tavoite
+
+Tavoitteena on saada 30 pistettä ennen kuin kaikki elämät loppuvat.
