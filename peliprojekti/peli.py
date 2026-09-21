@@ -101,28 +101,28 @@ else:
 
             print("Sait", korkeus, "pistettä")
 
-            tapahtuma = random.randint(1, 6)
+            yllätys = random.randint(1, 6)
 
-            if tapahtuma == 1:
+            if yllätys == 1:
                 print("VARO!")
                 print("Pallo osui piikkiin!")
                 elämät -= 1
                 print("Menetit yhden elämän")
 
-            elif tapahtuma == 2:
+            elif yllätys == 2:
                 print("Löysit sydämen!")
                 inventaario.append("sydän")
 
-            elif tapahtuma == 3:
+            elif yllätys == 3:
                 print("Löysit kultaisen tähden!")
                 inventaario.append("tähti")
 
-            elif tapahtuma == 4:
+            elif yllätys == 4:
                 print("SUPERHYPPY!")
                 print("Sait 5 bonuspistettä")
                 pisteet += 5
 
-            elif tapahtuma == 5:
+            elif yllätys == 5:
                 print("Pallo osui trampoliiniin!")
                 print("Sait 3 bonuspistettä")
                 pisteet += 3
