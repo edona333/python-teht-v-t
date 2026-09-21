@@ -160,3 +160,5 @@ while peli_käynnissä:
         break
     else:
         print('Et osaa antaa käskyjä!!!')
+
+
